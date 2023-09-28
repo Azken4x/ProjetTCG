@@ -1,0 +1,32 @@
+Page /
+“Commencer le combat” 
+
+
+<NavbarCombat />
+<Joueur/>
+<Monstres/>
+<Cartes/Attaques/>
+<BoutonFinTour/>
+
+Créer un système de tour à tour : 
+-quand c’est celui du joueur, il peut choisir une attaque, puis il clique sur “fin du tour”
+-Là, c’est le tour du monstre, il exécute une attaque aléatoire sur le joueur. 
+-Une fois que c’est fait, c’est de nouveau le tour du joueur (setTurn(“joueur”))
+
+
+Rajouter une fonction “tier” sur les monstres
+Fonction “counter” sur le personnage pour vérifier la continuité dans la BDD 
+
+
+Enlever record.js (route)
+Enlever RecordList.js (composant)
+mettre à jour Index.js et App.js
+Faire en sorte que la page d'accueil soit la page "Jouer"
+
+
+
+
+Combats / boutons pour cibler et enlever des HP 
+
+onClick, ça va modifier un attribut et faire en sorte que, par exemple
+loupID = targetedEnemy et que ça va modifier les HP de l'ennemi ciblé 
